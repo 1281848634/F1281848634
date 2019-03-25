@@ -1,0 +1,6 @@
+<view class="content">
+
+    <block wx:for="{{logs}}" wx:key="item">
+    <view class="item">{{item}}</view>
+    </block>
+</view>
